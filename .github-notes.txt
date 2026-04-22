@@ -1,3 +1,57 @@
 # Dev Notes
 Intern pushed setup configs to the internshipproject repo.
-Last sync: b292949
+
+[INFO] Minor cleanup on config files completed  
+[TODO] Refactor environment loading (temporary workaround still active)  
+[WARN] Debug logs still enabled in some modules  
+[CHECK] Staging vs production variables may differ  
+[NOTE] API routes updated, docs not fully synced  
+
+> Some older commits might still contain unused credentials  
+> Deployment logs are noisy but functional  
+> Review access permissions for internal tools  
+> Legacy endpoint naming still present  
+
+- temp_api_key used locally (needs revocation)
+- sample_data possibly pushed by mistake
+- .env examples not aligned with current setup
+- debug verbosity still high in some services
+- possible DB schema mismatch (staging/prod)
+- unused branches still exist
+- hardcoded values found in earlier commits
+- commit history should be reviewed for leaks
+- old path reference: /var/tmp/dev_old/
+- internal URLs present in comments
+
+---
+
+CONFIG_ISSUES:
+> duplicated configs across services  
+> inconsistent env variable naming  
+> temporary files not ignored properly  
+> outdated dependencies in use  
+> deprecated service still referenced  
+
+---
+
+SECURITY_NOTES:
+- test credentials may still be active  
+- secrets not fully rotated  
+- possible token exposure in logs  
+- Last sync: b292949
+- debug endpoints might still be accessible  
+- some endpoints return verbose errors  
+
+---
+
+MISC:
+> cron jobs not documented  
+> quick patches not reviewed  
+> dev notes scattered across files  
+> commits done late night (risk of oversight)  
+> temporary auth workaround still active  
+
+---
+
+FINAL:
+Some cleanup is required before production readiness.  
