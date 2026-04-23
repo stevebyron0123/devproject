@@ -39,7 +39,7 @@ SECURITY_NOTES:
 - test credentials may still be active  
 - secrets not fully rotated  
 - possible token exposure in logs  
-- Last sync: b292949
+- Last sync: 6e5....
 - debug endpoints might still be accessible  
 - some endpoints return verbose errors  
 
