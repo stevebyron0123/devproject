@@ -22,6 +22,7 @@ Intern pushed setup configs to the internshipproject repo.
 - commit history should be reviewed for leaks
 - old path reference: /var/tmp/dev_old/
 - internal URLs present in comments
+- moved config to internshipproject2
 
 ---
 
